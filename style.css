@@ -44,25 +44,40 @@ h2{
   margin: 10px 20px;
 }
 
+.listaLinks li .icon{
+  width: 30px;
+  margin-left: -37px;
+  display: flex;
+  margin-bottom: -35px;
+}
+
 .listaLinks li a{
   display: block;
-  background-color: rgb(255, 255, 255);
-  padding: 15px 20px;
+  background-color: rgb(204, 189, 189);
   border-radius: 4px;
+  padding: 16px 47px;
   text-decoration: none;
   color: black;
   font-weight: bold;
+  transition: all 0.5s;
+    cursor: pointer;
 }
 
+.listaLinks li a:hover{
+  -webkit-filter: drop-shadow(8px 6px 4px rgba(255, 253, 253, 0.5));
+  filter: drop-shadow(8px 6px 4px rgba(253, 253, 253, 0.5));
+}
 .listaLinks li a span{
   color: grey;
   display: block;
-  margin-top: 10px;
+  margin-top: 4px;
   font-size: 14px;
 }
 
+
+
 .listaLinks li a.active {
-  box-shadow: 0 0 10px white;
+
   color: rgb(54,77,204);
 }
 
